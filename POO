@@ -164,6 +164,53 @@ class Bolo(var sabor: String,
     
 }
 
+//-----------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    /*
+    val pessoa1 = Pessoa() //criando um obj 
+    //println(pessoa1.altura) //exibe um atributo de um obj
+    println(pessoa1.nome) 
+    pessoa1.nome = "José" //alterando o atributo de um obj
+    println(pessoa1.nome) 
+    pessoa1.altura = 3.10 
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27 
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}, ${pessoa1.nome}")
+    */
+    
+    val animalzin = Animal("Raposa", "Feneco", 0.70, 35.0, "onívora", 40.0)
+    
+    
+}
+    class Pessoa(){
+    //criação de atributos para a classe Pessoa
+    //os valores dados aqui, são padrões
+    var nome = "" 
+    var idade = 0 
+    var altura = 1.90
+    var peso = 30.0
+    var nacionalidade = "Italiano"
+}
+    
+class Animal(
+    val especie: String,
+    val raca: String,
+    val peso: Double,
+    val altura: Double,
+    val dieta: String,
+    val comprimento: Double
+){
+    
+    
+    
+}
+    
+    
+    
+
 
 
 
